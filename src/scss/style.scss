@@ -1,0 +1,33 @@
+@import "fonts";
+@import "./blocks/promo";
+
+body {
+	background-image: url("@img/higher_bg.jpg");
+	font-family: Roboto;
+	font-weight: 500;
+
+	span {
+		color: red;
+	}
+
+}
+
+.main {
+
+	color: red;
+	width: 100%;
+	height: 100vh;
+
+}
+
+@media (max-width: 768px) {
+	span {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	span {
+		background-color: green;
+	}
+}
